@@ -8,6 +8,7 @@ BatchedRoutines = "8149b2a8-f11c-11e8-306d-59a25846b9b7"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 GPUArrays = "0c68f7d7-f131-5f86-a1c3-88cf8149b2d7"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
 julia = "1.1"
