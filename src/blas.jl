@@ -1,5 +1,5 @@
 using GPUArrays
-import CuArrays
+import CuArrays.CUBLAS
 
 function batched_scal!(A::CuArray{T, 1}, B::CuArray{T, 3}) where T
     gpu_call(B, (A, B)) do state, A, B
