@@ -15,6 +15,12 @@ version = "0.4.2"
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
+[[BatchedRoutines]]
+deps = ["CUDAapi", "LinearAlgebra", "Pkg", "Test"]
+git-tree-sha1 = "0a5c56df32beb8d411c9a8e599b0608a715e9426"
+uuid = "a9ab73d0-e05c-5df1-8fde-d6a4645b8d8e"
+version = "0.1.0"
+
 [[BinaryProvider]]
 deps = ["Libdl", "SHA"]
 git-tree-sha1 = "c7361ce8a2129f20b0e05a89f7070820cfed6648"
